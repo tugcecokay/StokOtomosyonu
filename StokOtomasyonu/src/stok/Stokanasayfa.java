@@ -100,7 +100,7 @@ public class Stokanasayfa extends javax.swing.JFrame {
     }// </editor-fold>                        
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
-       if(jTextField1.getText().equals(" ") || (jPasswordField2.getText().equals(" "))){
+       if(jTextField1.getText().equals("") || (jPasswordField2.getText().equals(""))){
     	   JOptionPane.showMessageDialog(null, "Kulanıcı Adı/Parola bilgilerini giriniz.");
        }
        else{
